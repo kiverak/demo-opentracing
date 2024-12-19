@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-opentracing
+
+opentracing:
+  jaeger:
+    service-name: OpenTracingAppA
+    enabled: true
+    upd-sender:
+      host: 192.168.0.114
