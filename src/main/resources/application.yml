@@ -7,4 +7,4 @@ opentracing:
     service-name: OpenTracingAppA
     enabled: true
     upd-sender:
-      host: 192.168.0.114
+      host: http://localhost:16686

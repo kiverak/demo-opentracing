@@ -1,9 +1,9 @@
-version: '3.7'
+version: '3'
 services:
-  jaeger:
+  jaeger-all-in-one:
+    container_name: jaeger-opentracing
     image: jaegertracing/all-in-one:latest
+    restart: always
     ports:
-      - "6831:6831/udp"
       - "16686:16686"
-    networks:
-      - jaeger-example
+      - "14250"
